@@ -21,5 +21,33 @@ namespace Proyecto
         {
             this.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int n = int.Parse(textBox1.Text);
+
+            int a = 0;
+            int b = 1;
+
+            listBox1.Items.Clear();
+
+            listBox1.Items.Add(a);
+            listBox1.Items.Add(b);
+
+            for (int i = 2; i < n; i++)
+            {
+                int c = a + b;
+                listBox1.Items.Add(c);
+
+                a = b;
+                b = c;
+            }
+    }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            listBox1.Items.Clear();
+        }
     }
 }

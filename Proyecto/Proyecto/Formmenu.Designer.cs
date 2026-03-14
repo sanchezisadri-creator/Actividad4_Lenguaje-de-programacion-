@@ -48,10 +48,10 @@
             // 
             // button2
             // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button2.Location = new System.Drawing.Point(602, 0);
+            this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button2.Location = new System.Drawing.Point(0, 0);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(72, 450);
+            this.button2.Size = new System.Drawing.Size(674, 450);
             this.button2.TabIndex = 1;
             this.button2.Text = "Serie fibonacci";
             this.button2.UseVisualStyleBackColor = true;
@@ -59,8 +59,8 @@
             // 
             // button3
             // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button3.Location = new System.Drawing.Point(526, 0);
+            this.button3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button3.Location = new System.Drawing.Point(0, 0);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(76, 450);
             this.button3.TabIndex = 2;
